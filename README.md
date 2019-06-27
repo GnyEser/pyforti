@@ -65,7 +65,7 @@ def connect(vdom = "")
  def create_user(ssh = connection, username(str), password(str), tfa="disable")
  ```
   - Creates a user with the specified username, password and two factor authentication type.
-  - ***tfa =** (disable, fortitoken, email, sms)*
+  - ***tfa =** "disable"/ "fortitoken"/ "email"/ "sms"*
 
    ```python
  def create_user_group(ssh = connection, groupname(str))
