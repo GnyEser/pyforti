@@ -30,7 +30,7 @@ This script is firstly designed only to make user operations easier and automate
 
 ![Example][Visual]
 
-[Visual]: https://github.com/GnyEser/pyforti/Capture.PNG "visual"
+[Visual]: https://raw.githubusercontent.com/GnyEser/pyforti/master/Capture.PNG "visual"
 
 <h2>Functions:</h2>
 
