@@ -28,6 +28,9 @@ This script is firstly designed only to make user operations easier and automate
     fw.get_user_groups(conn)  # Returns the user groups on the device as a list.
 ```
 
+![Example][Visual]
+
+[Visual]: https://github.com/GnyEser/pyforti/Capture.PNG "visual"
 
 <h2>Functions:</h2>
 
