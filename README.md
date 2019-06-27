@@ -7,7 +7,7 @@ This script is firstly designed only to make user operations easier and automate
 
 <h3>Download</h3>
 
-`Open "Git Bash" and type:`
+ - Open "Git Bash" and type:
 
 
 `git clone https://github.com/GnyEser/pyforti.git`
