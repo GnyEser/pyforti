@@ -37,6 +37,13 @@ def connect(vdom = "")
  - Connects to the created Forti class device. If a vdom name is declared, also enters to the config mode of the vdom. Returns the paramiko connection which must be passed in every other function as an argument.
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
  ```python
  def get_users_from_group(ssh = connection, user_group(str) )
