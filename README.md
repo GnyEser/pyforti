@@ -38,19 +38,13 @@ def connect(vdom = "")
  
  
  
- 
- 
- 
- 
- 
- 
 
  ```python
  def get_users_from_group(ssh = connection, user_group(str) )
  ```
 
 
- - Returns users in the the passed user group name as a python list.
+ - Returns users in the passed user group name as a python list.
 
   
  ```python
@@ -110,3 +104,8 @@ def connect(vdom = "")
  ```
   - Runs 'get system interface physical' command and returns the output as a string.
  
+
+
+
+--- 
+Publish date: 27.06.2019
