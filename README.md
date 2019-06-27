@@ -6,7 +6,7 @@ This script is firstly designed only to make user operations easier and automate
 **Any helpful comment, advice and contribution would be most appreciated.** 
 
 <h3>Download</h3>
-
+`Open "Git Bash" and type:`
 `git clone https://github.com/GnyEser/pyforti.git`
 
 <h3>Requirements</h3>
