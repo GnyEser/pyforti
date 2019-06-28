@@ -16,6 +16,8 @@ This script is firstly designed to make user operations easier and automated on 
 
 <h3>Requirements</h3>
 
+`paramiko 2.6.0`
+
 `pip install paramiko`
  
  
