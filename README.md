@@ -2,7 +2,7 @@
 Network automation module for FortiGate firewalls. 
 
 
-This script is firstly designed to make user operations easier and automated on Fortigate firewalls. Tested on Fortigate 60E with v6.0.0 and Fortigate 200D v5.6.3 with Python 3.6.4. Special thanks to the **[Eczacıbaşı Bilişim](https://www.ebi.com.tr/)** company which helped me with the testing process.
+This script is firstly designed to make user operations easier and automated on Fortigate firewalls. Tested on Fortigate 60E with v6.0.0 and Fortigate 200D v5.6.3 with Python 3.6.4. Special thanks to **[Eczacıbaşı Bilişim](https://www.ebi.com.tr/)** company which helped me with the testing process.
 
 
 **Any helpful comment, advice and contribution would be most appreciated.** 
