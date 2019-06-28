@@ -31,11 +31,7 @@ This script is firstly designed to make user operations easier and automated on 
     fw.create_user_group(conn, "TestGroup")    # Returns the user group and command output as a dict.
 ```
 
-![Example][Visual]
 
-[Visual]: https://raw.githubusercontent.com/GnyEser/pyforti/master/Capture.PNG "visual"
-
----
 
 <h2>Functions:</h2>
 
