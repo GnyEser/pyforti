@@ -38,7 +38,7 @@ This script is firstly designed to make user operations easier and automated on 
 <h2>Functions:</h2>
 
 ```python
-def connect(vdom = "")
+conn = connect(vdom = "")
 ```
  - Connects to the created Forti class device. If a vdom name is declared, also enters to the config mode of the vdom. Returns the paramiko connection which must be passed in every other function as an argument.
  
@@ -46,67 +46,67 @@ def connect(vdom = "")
  
 
  ```python
- def get_users_from_group(ssh = connection, user_group(str) )
+ get_users_from_group(conn, user_group(str))  # Name of the user group to get users inside.
  ```
 
 
- - Returns users in the passed user group name as a python list.
+ - Returns users in the passed user group as a python list.
 
   
  ```python
- def get_user_groups(ssh = connection)
+ get_user_groups(conn)
  ```
-  - Returns user groups' names as a python list.
+  - Returns each user groups' names as a python list.
   
 
   ```python
- def get_users(ssh = connection)
+ get_users(conn)
  ```
   - Returns user names as a python list.
 
    ```python
- def create_user(ssh = connection, username(str), password(str), tfa="disable")
+ create_user(conn, username(str), password(str), tfa="disable")
  ```
   - Creates a user with the specified username, password and two factor authentication type.
   - ***tfa =** "disable"/ "fortitoken"/ "email"/ "sms"*
 
    ```python
- def create_user_group(ssh = connection, groupname(str))
+ create_user_group(conn, groupname(str))
  ```
   - Creates a user group with setting firewall as the group type. Returns the user group name as a dict.
 
    ```python
- def add_user_to_group(ssh = connection, user_group(str), username(str))
+ add_user_to_group(conn, user_group(str), username(str))
  ```
-  - Adds the specified user into the specified user group and returns the group name and user name as a dict.
+  - Adds the given user into the specified user group and returns the group name and user name as a dict.
 
    ```python
- def remove_user_from_group(ssh = connection, user_group(str), username(str))
+ remove_user_from_group(conn, user_group(str), username(str))
  ```
   - Removes the specified user from the specified user group and returns the group name and user name as a dict.
 
   ```python
- def change_hostname(ssh = connection, hostname(str))
+ change_hostname(conn, hostname(str))
  ```
-  - Changes the hostname of the device.
+  - Changes the hostname of the device to the passed string.
 
   ```python
- def check_connection(ssh = connection)
+ check_connection(conn)
  ```
   - Checks if the connection is still up. Returns **true** if up, and **false** if down.
 
   ```python
- def get_arp_table(ssh = connection)
+ get_arp_table(conn)
  ```
   - Returns the arp table as a string.
 
   ```python
- def set_dns(ssh = connection, primary(str), secondary(str))
+ set_dns(conn, primary(str), secondary(str))
  ```
   - Sets primary and secondary DNS addresses.
 
   ```python
- def show_interfaces(ssh = connection)
+ show_interfaces(conn)
  ```
   - Runs 'get system interface physical' command and returns the output as a string.
  
