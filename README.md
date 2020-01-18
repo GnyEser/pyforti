@@ -30,7 +30,7 @@ This script is firstly designed to make user operations easier and automated on 
     fw = Forti(ip(str), port(int), username(str), password(str))
     conn = fw.connect()
     fw.get_user_groups(conn)                   # Returns the user groups on the device as a list.
-    fw.create_user_group(conn, "TestGroup")    # Returns the user group and command output as a dict.
+    fw.create_user_group(conn, "TestGroup")    # Creates a user group named "TestGroup" and returns the user group and command output as a dict.
 ```
 
 
